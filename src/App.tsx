@@ -4,8 +4,8 @@ import { Features } from "@/components/landing/Features";
 import { HowItWorks } from "@/components/landing/HowItWorks";
 import { Testimonials } from "@/components/landing/Testimonials";
 import { Pricing } from "@/components/landing/Pricing";
-/* import { FAQ } from "@/components/landing/FAQ";
-import { Footer } from "@/components/landing/Footer";
+import { FAQ } from "@/components/landing/Faq";
+/* import { Footer } from "@/components/landing/Footer";
  */
 
 export default function Index() {
@@ -17,8 +17,8 @@ export default function Index() {
       <HowItWorks />
       <Testimonials />
       <Pricing />
-      {/* <FAQ />
-      <Footer /> */}
+      <FAQ />
+      {/* <Footer /> */}
     </main>
   );
 }
