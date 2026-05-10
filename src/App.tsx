@@ -5,8 +5,7 @@ import { HowItWorks } from "@/components/landing/HowItWorks";
 import { Testimonials } from "@/components/landing/Testimonials";
 import { Pricing } from "@/components/landing/Pricing";
 import { FAQ } from "@/components/landing/Faq";
-/* import { Footer } from "@/components/landing/Footer";
- */
+import { Footer } from "@/components/landing/Footer";
 
 export default function Index() {
   return (
@@ -18,7 +17,7 @@ export default function Index() {
       <Testimonials />
       <Pricing />
       <FAQ />
-      {/* <Footer /> */}
+      <Footer />
     </main>
   );
 }
